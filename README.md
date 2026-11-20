@@ -6,25 +6,22 @@ Bienvenue dans votre espace de travail en ligne pour la préparation à l'Épreu
 
 ## 🛠️ 1. Initialisation de l'environnement (à faire au premier démarrage)
 
-Lors de la toute première ouverture de votre espace de travail (Codespace), les bibliothèques Python nécessaires aux sujets (comme `pillow` pour les images ou `matplotlib` pour les graphiques) doivent être installées.
+Lors de la toute première ouverture de votre espace de travail (Codespace), vous devez créer un environnement virtuel dédié et y installer les bibliothèques Python nécessaires aux sujets (comme `pillow` pour les images ou `matplotlib` pour les graphiques).
 
-1. Si le **Terminal** n'est pas déjà ouvert en bas de l'écran, ouvrez le via le menu `Terminal > Nouveau terminal` et exécutez la commande suivante :
+Si le **Terminal** n'est pas déjà ouvert en bas de l'écran, ouvrez le via le menu `Terminal > Nouveau terminal` et exécutez successivement les trois commandes ci-après *Remarque.* Lors d'un copier-coller, une fenêtre de dialogue peut s’ouvrir : veuillez cliquer à chaque fois sur **Autoriser** pour fermer la fenêtre.
 
 ```bash
+python -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-2. **Création de l'environnement virtuel :** Une fenêtre de dialogue va s'ouvrir en bas à droite de l'écran pour vous proposer de créer un environnement virtuel. **Acceptez cette proposition** (cliquez sur **Créer un environnement virtuel** / *Create Virtual Environment*, choisissez **Venv**, puis cochez `requirements.txt`).
+> **Remarque.** Une fenêtre de dialogue s'ouvre affichant « Vous avez peut-être installé des paquets Python dans votre environnement global, ce qui peut entraîner des conflits entre les versions des paquets. Voulez-vous créer un environnement virtuel avec ces packages pour isoler vos dépendances ? ».
+> Cliquer sur le bouton **Ne plus afficher** pour fermer la fenêtre.
 
-> **Vous avez fermé la notification par mégarde ?**  
-> Pas de panique : appuyez sur `Ctrl + Shift + P` (ou `F1`), tapez **Python: Create Environment**, sélectionnez **Venv**, puis cochez `requirements.txt`.
+Pourquoi cette étape ?
 
-> **Pourquoi cette étape ?**  
-> Le gestionnaire de paquets `pip` installe toutes les bibliothèques externes listées dans `requirements.txt` au sein d'un environnement isolé (`.venv`). Cela permet à l'éditeur de code de reconnaître parfaitement tous les modules importés dans vos scripts. Vous n'aurez besoin d'effectuer cette manipulation qu'une seule fois lors de la création de votre espace.
-
-*Remarques.*
-- Lors d'un copier-coller, une fenêtre de dialogue s’ouvre la premier fois : veuillez fermer cette fenêtre en cliquant sur **Autoriser**.
-- Après l'exécution de la commande, une fenêtre de dialogue peut s'ouvrir affichant « Vous avez peut-être installé des paquets Python dans votre environnement global, ce qui peut entraîner des conflits entre les versions des paquets. Voulez-vous créer un environnement virtuel avec ces packages pour isoler vos dépendances ? ». Cliquer sur le bouton **Ne plus afficher**.
+La première commande crée un espace isolé (.venv), la deuxième l'active dans le terminal, et la troisième (pip) installe toutes les bibliothèques listées dans requirements.txt. Vous n'aurez besoin d'effectuer cette manipulation qu'une seule fois lors de la création de votre espace.
 
 
 ---
