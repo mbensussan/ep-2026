@@ -8,14 +8,19 @@ Bienvenue dans votre espace de travail en ligne pour la préparation à l'Épreu
 
 Lors de la toute première ouverture de votre espace de travail (Codespace), les bibliothèques Python nécessaires aux sujets (comme `pillow` pour les images ou `matplotlib` pour les graphiques) doivent être installées.
 
-Si le **Terminal** n'est pas déjà ouvert en bas de l'écran, ouvrez le via le menu `Terminal > Nouveau terminal` et exécutez la commande suivante :
+1. Si le **Terminal** n'est pas déjà ouvert en bas de l'écran, ouvrez le via le menu `Terminal > Nouveau terminal` et exécutez la commande suivante :
 
 ```bash
 pip install -r requirements.txt
 ```
 
-> **Pourquoi cette commande ?**  
-> Le gestionnaire de paquets `pip` lit le fichier `requirements.txt` présent à la racine du dépôt et installe automatiquement toutes les bibliothèques externes listées dedans. Vous n'aurez besoin de lancer cette commande qu'une seule fois lors de la création de votre espace.
+2. **Création de l'environnement virtuel :** Une fenêtre de dialogue va s'ouvrir en bas à droite de l'écran pour vous proposer de créer un environnement virtuel. **Acceptez cette proposition** (cliquez sur **Créer un environnement virtuel** / *Create Virtual Environment*, choisissez **Venv**, puis cochez `requirements.txt`).
+
+> **Vous avez fermé la notification par mégarde ?**  
+> Pas de panique : appuyez sur `Ctrl + Shift + P` (ou `F1`), tapez **Python: Create Environment**, sélectionnez **Venv**, puis cochez `requirements.txt`.
+
+> **Pourquoi cette étape ?**  
+> Le gestionnaire de paquets `pip` installe toutes les bibliothèques externes listées dans `requirements.txt` au sein d'un environnement isolé (`.venv`). Cela permet à l'éditeur de code de reconnaître parfaitement tous les modules importés dans vos scripts. Vous n'aurez besoin d'effectuer cette manipulation qu'une seule fois lors de la création de votre espace.
 
 *Remarques.*
 - Lors d'un copier-coller, une fenêtre de dialogue s’ouvre la premier fois : veuillez fermer cette fenêtre en cliquant sur **Autoriser**.
