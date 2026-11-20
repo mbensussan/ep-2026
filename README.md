@@ -8,7 +8,7 @@ Bienvenue dans votre espace de travail en ligne pour la préparation à l'Épreu
 
 Lors de la toute première ouverture de votre espace de travail (Codespace), vous devez créer un environnement virtuel dédié et y installer les bibliothèques Python nécessaires aux sujets (comme `pillow` pour les images ou `matplotlib` pour les graphiques).
 
-Si le **Terminal** n'est pas déjà ouvert en bas de l'écran, ouvrez le via le menu `Terminal > Nouveau terminal` et exécutez successivement les trois commandes ci-après *Remarque.* Lors d'un copier-coller, une fenêtre de dialogue peut s’ouvrir : veuillez cliquer à chaque fois sur **Autoriser** pour fermer la fenêtre.
+Si le **Terminal** n'est pas déjà ouvert en bas de l'écran, ouvrez le via le menu `Terminal > Nouveau terminal` et exécutez successivement les trois commandes ci-après. *Remarque.* Lors d'un copier-coller, une fenêtre de dialogue peut s’ouvrir : veuillez cliquer à chaque fois sur **Autoriser** pour fermer la fenêtre.
 
 ```bash
 python -m venv .venv
