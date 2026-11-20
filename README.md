@@ -17,7 +17,9 @@ pip install -r requirements.txt
 > **Pourquoi cette commande ?**  
 > Le gestionnaire de paquets `pip` lit le fichier `requirements.txt` présent à la racine du dépôt et installe automatiquement toutes les bibliothèques externes listées dedans. Vous n'aurez besoin de lancer cette commande qu'une seule fois lors de la création de votre espace.
 
-Une fenêtre de dialogue peut s'ouvrir affichant « Vous avez peut-être installé des paquets Python dans votre environnement global, ce qui peut entraîner des conflits entre les versions des paquets. Voulez-vous créer un environnement virtuel avec ces packages pour isoler vos dépendances ? ». Cliquer sur le bouton **Ne plus afficher**.
+*Remarques.*
+- Lors d'un copier-coller, une fenêtre de dialogue s’ouvre la premier fois : veuillez fermer cette fenêtre en cliquant sur **Autoriser**.
+- Après l'exécution de la commande, une fenêtre de dialogue peut s'ouvrir affichant « Vous avez peut-être installé des paquets Python dans votre environnement global, ce qui peut entraîner des conflits entre les versions des paquets. Voulez-vous créer un environnement virtuel avec ces packages pour isoler vos dépendances ? ». Cliquer sur le bouton **Ne plus afficher**.
 
 
 ---
