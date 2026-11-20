@@ -17,6 +17,9 @@ pip install -r requirements.txt
 > **Pourquoi cette commande ?**  
 > Le gestionnaire de paquets `pip` lit le fichier `requirements.txt` présent à la racine du dépôt et installe automatiquement toutes les bibliothèques externes listées dedans. Vous n'aurez besoin de lancer cette commande qu'une seule fois lors de la création de votre espace.
 
+Une fenêtre de dialogue peut s'ouvrir affichant « Vous avez peut-être installé des paquets Python dans votre environnement global, ce qui peut entraîner des conflits entre les versions des paquets. Voulez-vous créer un environnement virtuel avec ces packages pour isoler vos dépendances ? ». Cliquer sur le bouton **Ne plus afficher**.
+
+
 ---
 
 ## 📂 2. Naviguer vers le dossier d'un sujet
@@ -82,8 +85,8 @@ Dans Codespaces, l'enregistrement automatique sauvegarde vos fichiers dans votre
 
 1. Cliquez sur l'icône **Contrôle de code source** (*Source Control*, l'icône avec des branches et un chiffre bleu) dans la barre latérale tout à gauche.
 2. Dans la zone de texte **Message** située en haut, écrivez obligatoirement une courte étiquette décrivant votre travail (par exemple : `Sujet 01 RLE terminé` ou `Avancement séance 1`).
-3. Cliquez sur le bouton bleu **Valider** (*Commit*). Si une fenêtre vous propose de « Indexer toutes les modifications et les valider directement », cliquez sur **Oui** (*Always* ou *Yes*).
-4. Le bouton bleu devient **Synchroniser les modifications** (*Sync Changes*) : cliquez dessus pour envoyer définitivement votre code sur GitHub.
+3. Cliquez sur le bouton bleu **Valider** (*Commit*). Si une fenêtre vous propose de « Voulez-vous indexer tous vos changements et les valider directement ? », cliquez sur **Toujours**.
+4. Le bouton bleu devient **Synchroniser les modifications** (*Sync Changes*) : cliquez dessus pour envoyer définitivement votre code sur GitHub. Si une fenêtre vous s'affiche avec le message « Cette action permet d’extraire et d’envoyer (push) les validations à partir de et vers « origin/main ». », cliquer sur le bouton **OK, ne plus afficher**.
 
 > **Vérification :** Le chiffre bleu sur l'icône Contrôle de code source disparaît. Votre travail est en sécurité sur votre dépôt GitHub, même si vous fermez votre Chromebook !
 
