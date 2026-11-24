@@ -22,7 +22,8 @@
                     "**/.devcontainer": true,
                     "**/.venv": true,
                     "**/.gitignore": true
-                }
+                },
+                "remote.autoForwardPorts": false
             }
         }
     }
