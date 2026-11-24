@@ -20,7 +20,8 @@
                 "editor.insertSpaces": true,
                 "files.exclude": {
                     "**/.devcontainer": true,
-                    "**/.venv": true
+                    "**/.venv": true,
+                    "**/.gitignore": true
                 }
             }
         }

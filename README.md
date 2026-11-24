@@ -62,7 +62,7 @@ python rle.py
 Comme nous le pratiquons en classe, utilisez `pytest` pour vérifier automatiquement que vos fonctions respectent bien le cahier des charges et passent tous les jeux de tests :
 
 ```bash
-pytest -vv rle.py
+python -m pytest -vv rle.py
 ```
 
 > **Pourquoi l'option `-vv` ?**  
